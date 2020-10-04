@@ -18,7 +18,8 @@ Republican National Convention corpus (in spot 1) to the Democratic National Con
 text `big.txt` we used for spell checking. 
 
 Set `num_words = 10` when you call the function on the two conventions. When you compare
-one convention to the `big.txt`, set `num_words = 5`. 
+one convention to the `big.txt`, set `num_words = 5`. In both cases, set `ratio_cutoff` to 
+5. 
 
 **Input**
 * A corpus called `corpus_1`.
