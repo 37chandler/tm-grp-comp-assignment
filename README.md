@@ -29,7 +29,7 @@ one convention to the `big.txt`, set `num_words = 5`. In both cases, set `ratio_
 
 **Output**
 
-This function should output a dictionary. The first set of keys will be these three 
+This function should output a dictionary. The first set of keys will be these four 
 strings: "one", "two", "one_vs_two" and "two_vs_one". The keys for "one" and "two" 
 will just be summary statistics on `corpus_1` and `corpus_2` respectively. I'll explain
 the other two keys down below.
