@@ -49,6 +49,6 @@ the index will be p_1/p_2. For instance, if "dog" was used 5 times in a 1000 wor
 corpus and 2 times in a 10000 word corpus, the dictionary entry would be this:
 `results["one_vs_two"]["dog"] = (5/1000)/(2/10000)`. Only return `num_words`
 words for each corpus, where those words have the highest ratio in the data set. Only 
-words that have at least `ratio_cutoff` usages in *each* data set. Typically we'll 
-set `ratio_cutoff` to something relatively small, like 5. 
+words that have at least `ratio_cutoff` usages in *each* data set will be returned. 
+Typically we'll set `ratio_cutoff` to something relatively small, like 5. 
 
