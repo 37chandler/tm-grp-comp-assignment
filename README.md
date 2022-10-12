@@ -52,3 +52,5 @@ words for each corpus, where those words have the highest ratio in the data set.
 words that have at least `ratio_cutoff` usages in *each* data set will be returned. 
 Typically we'll set `ratio_cutoff` to something relatively small, like 5. 
 
+This calculation is complicated! I've made a [spreadsheet](https://docs.google.com/spreadsheets/d/1P87fkyslJhqXFnfYezNYrDrXp_GS8gwSATsZymv-9ms/edit#gid=0) to help you understand the math. 
+
